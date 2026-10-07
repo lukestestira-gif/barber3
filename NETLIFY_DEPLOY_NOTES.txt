@@ -1,0 +1,8 @@
+Netlify preparation:
+- Static frontend is configured with netlify.toml.
+- Publish directory: public
+
+IMPORTANT:
+This project originally uses server.js as a Node server with JSON database and API routes.
+Netlify static hosting does not run server.js. To have bookings/admin/login working on Netlify,
+the backend must be migrated to Netlify Functions or hosted separately (Render/Railway/VPS).

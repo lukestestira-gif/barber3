@@ -1,0 +1,13 @@
+{
+  "name": "barber-booking-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Barber booking website with admin dashboard",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

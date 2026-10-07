@@ -1,0 +1,7 @@
+NOIR Barber Booking PRO upgrade
+
+Included:
+- Responsive mobile improvements
+- Premium admin/mobile polish
+- Better cards and interactions
+- Existing booking engine preserved

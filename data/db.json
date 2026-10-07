@@ -1,0 +1,130 @@
+{
+  "settings": {
+    "salonName": "Gavro Hair Style",
+    "heroTitle": "Dobar fade se vidi. Dobar barber se pamti.",
+    "heroSubtitle": "Premium šišanje, fade i brada bez čekanja. Izaberi barbera, vidi slobodne termine i rezerviši za manje od minut.",
+    "phone": "+381 62 1892596",
+    "address": "Jovana Cvijića 25, Loznica",
+    "instagram": "",
+    "accent": "#d8a45d",
+    "currency": "RSD",
+    "openingHours": "Pon–Pet 09:00–18:00 · Subota 09:00–16:00 · Nedelja zatvoreno",
+    "aboutTitle": "Online zakazivanje termina",
+    "aboutText": "Rezerviši svoj termin brzo i jednostavno. Izaberi uslugu, barbera i vreme koje ti odgovara.",
+    "heroImage": "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&w=1800&q=82",
+    "appTitle": "Gavro Hair Style",
+    "appText": "Zakazivanje termina online bez čekanja.",
+    "logoImage": "/uploads/photo_mux78nxc_1c376b7c.png",
+    "heroEyebrow": "BARBER STUDIO · EST. 2026",
+    "marqueeText": "FRESH FADE|MID FADE|LOW FADE|SKIN FADE|TAPER|BURST FADE|BEARD|CLEAN LINES",
+    "primaryCtaText": "Zakaži termin",
+    "servicesTitle": "Izaberi tretman.",
+    "servicesSubtitle": "Jasna cena, vreme i slobodni termini. Bez poziva i čekanja.",
+    "worksTitle": "Rezultat govori.",
+    "worksSubtitle": "Fade, tekstura, brada i clean-up iz naše stolice.",
+    "barbersTitle": "Izaberi svog barbera.",
+    "barbersSubtitle": "Rezerviši termin direktno kod Gavra.",
+    "bookingTitle": "Stolica čeka. Izaberi vreme.",
+    "bookingSubtitle": "Prikazujemo samo termine koji su stvarno slobodni kod izabranog barbera.",
+    "footerText": "Rezervacija bez čekanja. Stil bez kompromisa.",
+    "tiktok": "",
+    "googleReviewUrl": "",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gavro+Hair+Style+Jovana+Cviji%C4%87a+25+Loznica",
+    "googleMapsEmbed": "https://www.google.com/maps?q=Gavro+Hair+Style+Jovana+Cviji%C4%87a+25+Loznica&output=embed"
+  },
+  "services": [
+    {
+      "id": "svc_hair",
+      "name": "Šišanje",
+      "description": "Konsultacija, šišanje i styling.",
+      "duration": 45,
+      "price": 1500,
+      "cost": 250,
+      "active": true
+    },
+    {
+      "id": "svc_fade",
+      "name": "Skin Fade",
+      "description": "Precizan fade sa završnim stylingom.",
+      "duration": 50,
+      "price": 1800,
+      "cost": 300,
+      "active": true
+    },
+    {
+      "id": "svc_beard",
+      "name": "Brada",
+      "description": "Oblikovanje, konture i završna nega.",
+      "duration": 30,
+      "price": 1000,
+      "cost": 180,
+      "active": true
+    },
+    {
+      "id": "svc_combo",
+      "name": "Hair + Beard",
+      "description": "Kompletan tretman kose i brade.",
+      "duration": 75,
+      "price": 2400,
+      "cost": 400,
+      "active": true
+    }
+  ],
+  "barbers": [
+    {
+      "id": "barber_gavro",
+      "name": "Gavro",
+      "role": "Barber",
+      "initials": "GV",
+      "color": "#d8a45d",
+      "workStart": "09:00",
+      "workEnd": "18:00",
+      "workDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "active": true,
+      "bio": "Moderni stilovi i detaljan završni styling.",
+      "photo": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal_1",
+      "title": "Clean Fade",
+      "caption": "Precizne konture i čist prelaz.",
+      "image": "/uploads/photo_mux79cwe_64b3b44f.png",
+      "barberId": "barber_gavro",
+      "active": true
+    },
+    {
+      "id": "gal_2",
+      "title": "Fresh Cut",
+      "caption": "Klasičan barber finish.",
+      "image": "https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&w=1200&q=82",
+      "barberId": "barber_gavro",
+      "active": true
+    },
+    {
+      "id": "gal_3",
+      "title": "Sharp Lines",
+      "caption": "Detalji prave razliku.",
+      "image": "https://images.unsplash.com/photo-1653875700329-a7c8aca94c95?auto=format&fit=crop&w=1200&q=82",
+      "barberId": "barber_gavro",
+      "active": true
+    },
+    {
+      "id": "gal_4",
+      "title": "Studio Work",
+      "caption": "Rad u toku.",
+      "image": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=1200&q=82",
+      "barberId": "barber_gavro",
+      "active": true
+    }
+  ],
+  "bookings": []
+}
